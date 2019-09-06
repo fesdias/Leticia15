@@ -15,10 +15,45 @@
             }
             h1 {
                 font-size: 80px;
-                background: -webkit-linear-gradient(35deg, #0296c4, #b7027c);
+                background: -webkit-linear-gradient(35deg, #f2a4bc, #d06fa2);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
+
+            a {
+              text-decoration: none;
+            }
+
+            a:hover{
+                background: -webkit-linear-gradient(35deg, #f2a4bc, #d06fa2);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .buttons {
+                display: block;
+                background-color: white;
+                padding: 15px 0;
+            }
+
+            .buttons a{
+                background: white;
+                width: 100%;
+                height: 50px;
+
+                padding: 15px;
+                text-align: center;
+
+                color: black;
+                text-decoration: none;
+            }
+
+            .buttons a:hover{
+                background: -webkit-linear-gradient(35deg, #f2a4bc, #d06fa2);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
             .cover {
                 top: 0;
                 left: 0;
@@ -27,19 +62,26 @@
             .cover_logo {
                 height:350px;
             }
+            
             .text {
-                background: -webkit-linear-gradient(35deg, #003a4c, #4f0035);
+                background: -webkit-linear-gradient(35deg, #f2a4bc, #d06fa2);
                 padding-top: 50px;
                 padding-bottom: 50px;
+
                 font-size: 27px;
             }
+
             .count {
+
                 padding-top: 100px;
                 padding-bottom: 100px;
                 background-color: #E0E0E0;
-                background: -webkit-linear-gradient(35deg, #003a4c, #4f0035);
+
+                background: -webkit-linear-gradient(35deg, #f2a4bc, #d06fa2);
                 font-size: 50px;
                 font-weight: bold;
+
+                background-color: #733438;
             }
             .count h3 {
                 font-size: 25px;
@@ -88,8 +130,9 @@
             }
             
             .gifts {
-              padding: 150px;
+              padding: 100px 150px;
             }
+            
             @media screen and (max-width: 480px) {
                 body {
                     font-size: 18px;   
@@ -129,6 +172,11 @@
             <!-- <h1>#Letícia15anos</h1> -->
             <img src="logo-colorido.png" class="cover_logo">
         </section>
+        
+        <section class="buttons">
+            <a href="https://api.whatsapp.com/send?phone=5511996831410&text=Eu%20vou%20na%20festa%20%2315daLeh!">Confirme sua Presença</a>
+            <a href="#gifts">Lista de Presentes</a>
+        </section>
 
         <section id="text" class="text">
             <p>Na vida, poucas vezes temos a oportunidade de viver<br>momentos únicos e cheios de emoções!<br><br>O dia 25 de Outubro será um desses momentos memoráveis<br>que só acontecem uma única vez na vida,
@@ -137,9 +185,10 @@
 
         <section id="date" class="date">
             <div class="save">
-                <h3>SAVE THE DATE</h3>
+                <h3></h3>
                 <h4>25.10.19</h4>
                 <h4>20:30</h4>
+                <h4><a href="https://goo.gl/maps/gjvH9rzDxEBLMvf48">Espaço Speranza</a></h4>
             </div>
 
             <div class="pic">
@@ -151,11 +200,11 @@
             <h2>Eu sei que comprar um presente não é uma tarefa muito fácil. Por isso, separei algumas lojas e produtos que eu gosto para te ajudar na escolha!</h2>
             <br>
             <h2>Lojas que já sabem sobre os meus presentes:</h2>
-            <h3>Imaginarium - unidades de Jundiaí (Maxi Shopping e Jundiaí Shopping)</h3>
-            <h3>Melissa - Jundiaí Shopping (Falar com ...)</h3>
+            <h3><a>Imaginarium</a> - unidades de Jundiaí (Maxi Shopping e Jundiaí Shopping)</h3>
+            <h3><a>Melissa</a> - Jundiaí Shopping (Falar com ...)</h3>
             <br>
             <h2>Algumas lojas disponibilizam listas online. Você também pode se inspirar nelas!<h2>
-            <h3>Camicado</h3>
+            <h3><a>Camicado</a></h3>
         </section>
 
         <section id="count" class="count">
